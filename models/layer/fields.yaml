@@ -10,10 +10,17 @@ fields:
         span: full
         default: 1
         type: checkbox
-    colors:
+    
+    colors: 
         label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
-        oc.commentPosition: ''
         span: full
         required: 1
-        type: partial
-        path: field_layer_colors
+        type: relation
+
+    #colors:
+    #    label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
+    #    oc.commentPosition: ''
+    #    span: full
+    #    required: 1
+    #    type: partial
+    #    path: field_layer_colors
