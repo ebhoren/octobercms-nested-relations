@@ -1,0 +1,27 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+layers:
+    label: Layer
+    view:
+        list: $/dominicmercier/nikeid/models/layer/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/dominicmercier/nikeid/models/layer/fields.yaml
+
+colors: 
+    label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
+    view:
+        list: $/dominicmercier/nikeid/models/color/columns.yaml
+        toolbarButtons: create|add|remove
+    manage:
+        form: $/dominicmercier/nikeid/models/color/fields.yaml
+
+views:
+    label: View
+    view:
+        list: $/dominicmercier/nikeid/models/view/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/dominicmercier/nikeid/models/view/fields.yaml

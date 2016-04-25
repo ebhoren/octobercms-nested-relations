@@ -1,0 +1,24 @@
+fields:
+    view_id:
+        label: 'dominicmercier.nikeid::lang.nikeid.views_layers.view'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    layer_id:
+        label: 'dominicmercier.nikeid::lang.nikeid.views_layers.layer'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    image:
+        label: 'dominicmercier.nikeid::lang.nikeid.views_layers.image'
+        oc.commentPosition: ''
+        mode: file
+        span: full
+        required: 1
+        type: mediafinder

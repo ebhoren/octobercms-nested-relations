@@ -1,0 +1,19 @@
+fields:
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.layers.name'
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: text
+    editable:
+        label: 'dominicmercier.nikeid::lang.nikeid.layers.editable'
+        span: full
+        default: 1
+        type: checkbox
+    colors:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: partial
+        path: field_layer_colors

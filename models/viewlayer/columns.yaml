@@ -1,0 +1,9 @@
+columns:
+    view_id:
+        label: 'dominicmercier.nikeid::lang.nikeid.views.name'
+        type: number
+        searchable: true
+    layer_id:
+        label: 'dominicmercier.nikeid::lang.nikeid.layers.name'
+        type: number
+        searchable: true

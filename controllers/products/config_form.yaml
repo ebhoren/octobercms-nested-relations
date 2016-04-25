@@ -1,0 +1,10 @@
+name: Products
+modelClass: DominicMercier\Nikeid\Models\Product
+form: $/dominicmercier/nikeid/models/product/fields.yaml
+defaultRedirect: dominicmercier/nikeid/products
+create:
+    redirect: 'dominicmercier/nikeid/products/update/:id'
+    redirectClose: dominicmercier/nikeid/products
+update:
+    redirect: dominicmercier/nikeid/products
+    redirectClose: dominicmercier/nikeid/products

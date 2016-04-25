@@ -1,0 +1,10 @@
+fields: {  }
+tabs:
+    fields:
+        name:
+            label: 'dominicmercier.nikeid::lang.nikeid.views.name'
+            oc.commentPosition: ''
+            span: full
+            required: 1
+            type: text
+            tab: General

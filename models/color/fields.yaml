@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    color:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.color'
+        oc.commentPosition: ''
+        span: auto
+        default: '#000000'
+        required: 1
+        type: colorpicker

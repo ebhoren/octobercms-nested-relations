@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.layers.name'
+        type: text
+        searchable: true
+        sortable: true
+    editable:
+        label: 'dominicmercier.nikeid::lang.nikeid.layers.editable'
+        type: switch
+        searchable: true
+        sortable: true
+    colors:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
+        type: text
+        select: name
+        relation: colors

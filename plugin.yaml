@@ -1,0 +1,20 @@
+plugin:
+    name: 'dominicmercier.nikeid::lang.plugin.name'
+    description: 'dominicmercier.nikeid::lang.plugin.description'
+    author: 'Dominic Mercier'
+    icon: oc-icon-bullseye
+    homepage: ''
+navigation:
+    nikeid-menu-item:
+        label: 'dominicmercier.nikeid::lang.plugin.name'
+        url: dominicmercier/nikeid/colors
+        icon: icon-bullseye
+        sideMenu:
+            nikeid-colors:
+                label: 'dominicmercier.nikeid::lang.nikeid.colors.Colors'
+                url: dominicmercier/nikeid/colors
+                icon: icon-sitemap
+            nikeid-products:
+                label: 'dominicmercier.nikeid::lang.nikeid.products.products'
+                url: dominicmercier/nikeid/products
+                icon: icon-bullhorn

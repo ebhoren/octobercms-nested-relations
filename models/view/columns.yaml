@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.views.name'
+        type: text
+        searchable: true
+        sortable: true

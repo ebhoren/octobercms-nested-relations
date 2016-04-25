@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.name'
+        type: text
+        searchable: true
+        sortable: true
+    color:
+        label: 'dominicmercier.nikeid::lang.nikeid.colors.color'
+        type: text
+        searchable: true
+        sortable: true

@@ -1,0 +1,10 @@
+name: Colors
+form: $/dominicmercier/nikeid/models/color/fields.yaml
+modelClass: DominicMercier\Nikeid\Models\Color
+defaultRedirect: dominicmercier/nikeid/colors
+create:
+    redirect: 'dominicmercier/nikeid/colors/update/:id'
+    redirectClose: dominicmercier/nikeid/colors
+update:
+    redirect: dominicmercier/nikeid/colors
+    redirectClose: dominicmercier/nikeid/colors

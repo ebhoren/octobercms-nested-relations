@@ -1,0 +1,11 @@
+title: 'dominicmercier.nikeid::lang.nikeid.products.products'
+modelClass: DominicMercier\Nikeid\Models\Product
+list: $/dominicmercier/nikeid/models/product/columns.yaml
+recordUrl: 'dominicmercier/nikeid/products/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

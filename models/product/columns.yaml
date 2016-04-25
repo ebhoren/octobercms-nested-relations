@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: 'dominicmercier.nikeid::lang.nikeid.products.title'
+        type: text
+        searchable: true
+        sortable: true
+    name:
+        label: 'dominicmercier.nikeid::lang.nikeid.products.name'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: 'dominicmercier.nikeid::lang.nikeid.products.price'
+        type: number
+        searchable: true
+        sortable: true
