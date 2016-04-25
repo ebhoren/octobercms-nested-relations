@@ -18,9 +18,9 @@ class View extends Model
     /**
      * @var array Relations
      */    
-    public $hasMany = [
-        'viewLayers' => ['DominicMercier\Nikeid\Models\ViewLayer'],
-    ];
+    //public $hasMany = [
+    //    'viewLayers' => ['DominicMercier\Nikeid\Models\ViewLayer'],
+    //];
 
     /*
      * Disable timestamps by default.

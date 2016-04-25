@@ -63,3 +63,6 @@
 1.0.22:
     - 'Created table dominicmercier_nikeid_views_layers'
     - builder_table_create_dominicmercier_nikeid_views_layers_2.php
+1.0.23:
+    - Seeding all tables
+    - seed_all_tables.php
