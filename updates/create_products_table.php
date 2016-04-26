@@ -3,7 +3,7 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateDominicmercierNikeidProducts extends Migration
+class CreateProductsTable extends Migration
 {
     public function up()
     {
@@ -11,9 +11,10 @@ class BuilderTableCreateDominicmercierNikeidProducts extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->string('title');
-            $table->string('name');
+            $table->string('title')->nullable();
+            $table->string('name')->nullable();
             $table->decimal('price', 10, 0)->default(0.00);
+            $table->timestamps();
         });
     }
     

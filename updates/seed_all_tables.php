@@ -9,12 +9,12 @@ class SeedAllTables extends Seeder
 {
     public function run()
     {
-        Color::create(['name' => 'Black',     'color' => '#000000']);
-        Color::create(['name' => 'White',     'color' => '#ffffff']);
-        Color::create(['name' => 'Gray',      'color' => '#959595']);
-        Color::create(['name' => 'Yellow',    'color' => '#f8f400']);
-        Color::create(['name' => 'Gold',      'color' => '#f2b213']);
-        Color::create(['name' => 'Vegas',     'color' => '#b69e56']);
+        Color::create(['name' => 'Black', 'color' => '#000000']);
+        Color::create(['name' => 'White', 'color' => '#ffffff']);
+        Color::create(['name' => 'Gray', 'color' => '#959595']);
+        Color::create(['name' => 'Yellow', 'color' => '#f8f400']);
+        Color::create(['name' => 'Gold', 'color' => '#f2b213']);
+        Color::create(['name' => 'Vegas', 'color' => '#b69e56']);
 
         Product::create(['title' => 'Hockey Glove', 'name' => 'Regulator Lite', 'price' => 100]);
 

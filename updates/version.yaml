@@ -1,68 +1,13 @@
 1.0.1:
     - 'Initialize plugin.'
 1.0.2:
-    - 'Created table dominicmercier_nikeid_colors'
-    - builder_table_create_dominicmercier_nikeid_colors.php
+    - 'Created database tables'
+    - create_colors_table.php
+    - create_products_table.php
+    - create_layers_table.php
+    - create_layers_colors_table.php
+    - create_views_table.php
+    - create_views_layers_table.php
 1.0.3:
-    - 'Created table dominicmercier_nikeid_products'
-    - builder_table_create_dominicmercier_nikeid_products.php
-1.0.4:
-    - 'Updated table dominicmercier_nikeid_colors'
-    - builder_table_update_dominicmercier_nikeid_colors.php
-1.0.5:
-    - 'Created table dominicmercier_nikeid_products_views'
-    - builder_table_create_dominicmercier_nikeid_products_views.php
-1.0.6:
-    - 'Created table dominicmercier_nikeid_products_layers'
-    - builder_table_create_dominicmercier_nikeid_products_layers.php
-1.0.7:
-    - 'Updated table dominicmercier_nikeid_products_layers'
-    - builder_table_update_dominicmercier_nikeid_products_layers.php
-1.0.8:
-    - 'Updated table dominicmercier_nikeid_colors'
-    - builder_table_update_dominicmercier_nikeid_colors_2.php
-1.0.9:
-    - 'Updated table dominicmercier_nikeid_products_layers'
-    - builder_table_update_dominicmercier_nikeid_layers.php
-1.0.10:
-    - 'Updated table dominicmercier_nikeid_products_views'
-    - builder_table_update_dominicmercier_nikeid_views.php
-1.0.11:
-    - 'Created table dominicmercier_nikeid_product_views'
-    - builder_table_create_dominicmercier_nikeid_product_views.php
-1.0.12:
-    - 'Updated table dominicmercier_nikeid_layers'
-    - builder_table_update_dominicmercier_nikeid_layers_2.php
-1.0.13:
-    - 'Updated table dominicmercier_nikeid_views'
-    - builder_table_update_dominicmercier_nikeid_views_2.php
-1.0.14:
-    - 'Drop table dominicmercier_nikeid_product_views'
-    - builder_table_delete_dominicmercier_nikeid_product_views.php
-1.0.15:
-    - 'Created table dominicmercier_nikeid_views_layers'
-    - builder_table_create_dominicmercier_nikeid_views_layers.php
-1.0.16:
-    - 'Created table dominicmercier_nikeid_layers_colors'
-    - builder_table_create_dominicmercier_nikeid_layers_colors.php
-1.0.17:
-    - 'Created table dominicmercier_nikeid_inspirations'
-    - builder_table_create_dominicmercier_nikeid_inspirations.php
-1.0.18:
-    - 'Drop table dominicmercier_nikeid_inspirations'
-    - builder_table_delete_dominicmercier_nikeid_inspirations.php
-1.0.19:
-    - 'Drop table dominicmercier_nikeid_layers_colors'
-    - builder_table_delete_dominicmercier_nikeid_layers_colors.php
-1.0.20:
-    - 'Drop table dominicmercier_nikeid_views_layers'
-    - builder_table_delete_dominicmercier_nikeid_views_layers.php
-1.0.21:
-    - 'Created table dominicmercier_nikeid_layers_colors'
-    - builder_table_create_dominicmercier_nikeid_layers_colors_2.php
-1.0.22:
-    - 'Created table dominicmercier_nikeid_views_layers'
-    - builder_table_create_dominicmercier_nikeid_views_layers_2.php
-1.0.23:
-    - Seeding all tables
+    - 'Seeding all tables'
     - seed_all_tables.php

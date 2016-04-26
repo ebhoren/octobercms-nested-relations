@@ -22,12 +22,6 @@ class View extends Model
     //    'viewLayers' => ['DominicMercier\Nikeid\Models\ViewLayer'],
     //];
 
-    /*
-     * Disable timestamps by default.
-     * Remove this line if timestamps are defined in the database table.
-     */
-    public $timestamps = false;
-
     /**
      * @var string The database table used by the model.
      */

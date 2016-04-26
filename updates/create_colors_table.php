@@ -3,7 +3,7 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateDominicmercierNikeidColors extends Migration
+class CreateColorsTable extends Migration
 {
     public function up()
     {
@@ -11,8 +11,9 @@ class BuilderTableCreateDominicmercierNikeidColors extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->string('name');
-            $table->string('color');
+            $table->string('name')->nullable();
+            $table->string('color')->nullable();
+            $table->timestamps();
         });
     }
     
